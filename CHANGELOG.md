@@ -1,3 +1,10 @@
+## [1.24.4](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.24.3...v1.24.4) (2026-01-19)
+
+
+### Bug Fixes
+
+* update worklow ([1a6fd53](https://github.com/CoCreate-app/CoCreate-cursors/commit/1a6fd532878bec097ed6fda29afb1876138387bd))
+
 ## [1.24.3](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.24.2...v1.24.3) (2025-05-01)
 
 
