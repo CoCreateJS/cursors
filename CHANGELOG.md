@@ -1,3 +1,12 @@
+## [1.24.5](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.24.4...v1.24.5) (2026-07-11)
+
+
+### Bug Fixes
+
+* bump package versions ([f16e8be](https://github.com/CoCreate-app/CoCreate-cursors/commit/f16e8be5e3b6523f42dc9f9c5ce4ad86bc6b0cc8))
+* removed post install and add add packages to apprved list ([8097164](https://github.com/CoCreate-app/CoCreate-cursors/commit/8097164069293f8f9d082eec3f21dfd8ed9f1457))
+* semantic version handling ([b3fe19b](https://github.com/CoCreate-app/CoCreate-cursors/commit/b3fe19bb37dc461e0632add803b03ff405e7a43b))
+
 ## [1.24.4](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.24.3...v1.24.4) (2026-01-19)
 
 
