@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.24.5...v1.25.0) (2026-07-17)
+
+
+### Features
+
+* update automated workflow and release configuration for improved semantic release handling ([a5aebf8](https://github.com/CoCreate-app/CoCreate-cursors/commit/a5aebf87390927c9a3e272838a101fa04f3b9311))
+
 ## [1.24.5](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.24.4...v1.24.5) (2026-07-11)
 
 
