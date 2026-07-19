@@ -1,3 +1,10 @@
+## [1.25.2](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.25.1...v1.25.2) (2026-07-19)
+
+
+### Bug Fixes
+
+* set default branch to main ([b0569a9](https://github.com/CoCreate-app/CoCreate-cursors/commit/b0569a9028aaf957e9f75b81ed15b87bd0f3ac4c))
+
 ## [1.25.1](https://github.com/CoCreate-app/CoCreate-cursors/compare/v1.25.0...v1.25.1) (2026-07-17)
 
 
