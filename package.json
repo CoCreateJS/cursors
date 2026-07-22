@@ -42,8 +42,7 @@
     "@cocreate/random-color": "^1.13.0",
     "@cocreate/selection": "^1.15.0",
     "@cocreate/socket-client": "^1.41.0",
-    "@cocreate/utils": "^1.44.0",
-    "@cocreate/uuid": "^1.12.4"
+    "@cocreate/utils": "^1.44.0"
   },
   "devDependencies": {
     "@cocreate/webpack": "^1.6.0"
@@ -65,7 +64,6 @@
     "@cocreate/selection@1.14.3": true,
     "@cocreate/socket-client@1.40.5": true,
     "@cocreate/utils@1.42.2": true,
-    "@cocreate/uuid@1.12.4": true,
     "@cocreate/webpack@1.4.3": true
   }
 }

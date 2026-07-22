@@ -22,15 +22,14 @@
 
 /*globals ResizeObserver*/
 import observer from "@cocreate/observer";
-import { getAttributeNames } from "@cocreate/utils";
+import { getAttributeNames, uuid } from "@cocreate/utils";
 import socket from "@cocreate/socket-client";
-import uuid from "@cocreate/uuid";
 import localStorage from "@cocreate/local-storage";
 import { getElementPosition } from "@cocreate/selection";
 import { randomColor } from "@cocreate/random-color";
 import "./index.css";
 
-const clientId = socket.clientId || uuid.generate(12);
+const clientId = socket.clientId ||  uuid(12);
 const cursorBackground = randomColor();
 
 let environment_prod = true;
@@ -163,7 +162,7 @@ function drawCursors(selection) {
 		let mirrorDiv;
 		let id_mirror = element.getAttribute("mirror_id");
 		if (!id_mirror) {
-			id_mirror = uuid.generate(8);
+			id_mirror =  uuid(8);
 			element.setAttribute("mirror_id", id_mirror);
 
 			mirrorDiv = document.createElement("cursor-container");
