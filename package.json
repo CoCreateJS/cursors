@@ -42,7 +42,7 @@
     "@cocreate/random-color": "^1.14.0",
     "@cocreate/selection": "^1.16.0",
     "@cocreate/socket-client": "^1.42.0",
-    "@cocreate/utils": "^1.50.0"
+    "@cocreate/utils": "^1.50.3"
   },
   "devDependencies": {
     "@cocreate/webpack": "^1.7.0"
