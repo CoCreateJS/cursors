@@ -37,15 +37,15 @@
   },
   "main": "./src/index.js",
   "dependencies": {
-    "@cocreate/local-storage": "^1.18.0",
-    "@cocreate/observer": "^1.21.0",
-    "@cocreate/random-color": "^1.14.0",
-    "@cocreate/selection": "^1.16.0",
-    "@cocreate/socket-client": "^1.42.0",
-    "@cocreate/utils": "^1.50.3"
+    "@cocreate/local-storage": "^1.19.0",
+    "@cocreate/observer": "^1.22.0",
+    "@cocreate/random-color": "^1.15.0",
+    "@cocreate/selection": "^1.17.0",
+    "@cocreate/socket-client": "^1.42.1",
+    "@cocreate/utils": "^1.52.0"
   },
   "devDependencies": {
-    "@cocreate/webpack": "^1.7.0"
+    "@cocreate/webpack": "^1.8.0"
   },
   "allowScripts": {
     "@cocreate/actions@1.21.4": true,
