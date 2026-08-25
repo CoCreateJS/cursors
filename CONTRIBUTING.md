@@ -13,7 +13,7 @@ Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-cursors) a
 ```
 git cursors https://github.com/contributor/CoCreate-cursors.git
 cd CoCreate-cursors
-git remote add upstream https://github.com/CoCreate-app/CoCreate-cursors.git
+git remote add upstream https://gitlab.com/cocreatejs/CoCreate-cursors.git
 ```
 
 ## Create a Topic Branch
