@@ -34,7 +34,8 @@ const cursorBackground = randomColor();
 
 let environment_prod = true;
 
-let selector = "[array][object][key]:not([contentEditable='false'])";
+let selector =
+	"[array][object][key][crdt='true']:not([contentEditable='false'])";
 
 function init() {
 	let elements = document.querySelectorAll(selector);
@@ -552,7 +553,7 @@ socket.listen("cursor", function (response) {
 observer.init({
 	name: "CoCreateCursor",
 	types: ["addedNodes"],
-	selector: "[array][object][key]",
+	selector,
 	callback: function (mutation) {
 		initElement(mutation.target);
 	}
@@ -561,7 +562,7 @@ observer.init({
 observer.init({
 	name: "CoCreateCursorAtt",
 	types: ["attributes"],
-	attributeFilter: getAttributeNames(["array", "object", "key"]),
+	attributeFilter: getAttributeNames(["array", "object", "key", "crdt"]),
 	callback: function (mutation) {
 		initElement(mutation.target);
 	}
