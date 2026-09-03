@@ -532,7 +532,7 @@ function sendPosition(info) {
 				user_id:
 					info.user_id || localStorage.getItem("user_id") || clientId
 			},
-			broadcastBrowser: true
+			broadcastClient: true
 		});
 	} catch (e) {
 		console.error(e);
