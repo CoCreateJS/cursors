@@ -511,6 +511,15 @@ function initResizeObserver(element) {
 	watch.observe(element);
 }
 
+function getPresence(info = {}) {
+    return {
+        color: info.color || localStorage.getItem("cursorColor"),
+        background: info.background || localStorage.getItem("cursorBackground") || cursorBackground,
+        userName: info.userName || localStorage.getItem("userName") || clientId,
+        user_id: info.user_id || localStorage.getItem("user_id") || clientId
+    };
+}
+
 function sendPosition(info) {
 	try {
 		socket.send({
@@ -539,6 +548,16 @@ function sendPosition(info) {
 		console.error(e);
 	}
 }
+
+window.addEventListener("cocreate-crdt-selection", ({ detail }) => {
+    if (detail.frameId === socket.frameId || !detail.socketId) return;
+    if (detail.selection === null) return removeCursor(detail.socketId);
+    if (!detail.resolved) return;
+    drawCursors({ ...detail, ...detail.presence, ...detail.resolved,
+        color: detail.presence?.color || localStorage.getItem("cursorColor"),
+        background: detail.presence?.background || cursorBackground,
+        userName: detail.presence?.userName || detail.clientId });
+});
 
 socket.listen("cursor", function (response) {
 	// if (socket.has(selection.socketId)) return;
@@ -570,4 +589,4 @@ observer.init({
 
 init();
 
-export default { drawCursors, updateCursors, removeCursor, sendPosition };
+export default { drawCursors, updateCursors, removeCursor, sendPosition, getPresence };
