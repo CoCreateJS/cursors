@@ -1,6 +1,6 @@
 # CoCreate-cursors
 
-Collaborative user cursor position for inputs, textarea's and contenteditable elements. Take it for a spin in our [playground!](https://cocreate.app/docs/cursors)
+Collaborative remote cursor and selection overlays for CoCreate Text and Editor surfaces, including inputs, textareas, and contenteditable elements. Take it for a spin in our [playground!](https://cocreate.app/docs/cursors)
 
 ![minified](https://img.badgesize.io/https://cdn.cocreate.app/cursors/latest/CoCreate-cursors.min.js?style=flat-square&label=minified&color=orange)
 ![gzip](https://img.badgesize.io/https://cdn.cocreate.app/cursors/latest/CoCreate-cursors.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
@@ -20,10 +20,6 @@ For a complete guide and working demo refer to the [doumentation](https://cocrea
 
 ```html
 <script src="https://cdn.cocreate.app/cursors/latest/CoCreate-cursors.min.js"></script>
-```
-
-```html
-<script src="https://cdn.cocreate.app/cursors/latest/CoCreate-cursors.min.css"></script>
 ```
 
 ## NPM

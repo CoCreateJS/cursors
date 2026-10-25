@@ -1,5 +1,4 @@
 const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { EsbuildPlugin } = require("esbuild-loader");
 const { FileUploader } = require("@cocreate/webpack");
 
@@ -16,12 +15,7 @@ module.exports = async (env, argv) => {
 			library: ["CoCreate", "cursors"],
 			clean: true
 		},
-		plugins: [
-			new MiniCssExtractPlugin({
-				filename: isProduction ? "[name].min.css" : "[name].css"
-			}),
-			new FileUploader(env, argv)
-		],
+		plugins: [new FileUploader(env, argv)],
 		mode: isProduction ? "production" : "development",
 		devtool: isProduction ? "source-map" : "eval-source-map",
 		module: {
@@ -36,10 +30,6 @@ module.exports = async (env, argv) => {
 							target: "es2017"
 						}
 					}
-				},
-				{
-					test: /.css$/i,
-					use: [MiniCssExtractPlugin.loader, "css-loader"]
 				}
 			]
 		},
@@ -47,8 +37,7 @@ module.exports = async (env, argv) => {
 			minimize: isProduction,
 			minimizer: [
 				new EsbuildPlugin({
-					target: "es2017",
-					css: true
+					target: "es2017"
 				})
 			],
 			splitChunks: {
