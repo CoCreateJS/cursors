@@ -16,6 +16,43 @@
   "publishConfig": {
     "access": "public"
   },
+  "cocreate": {
+    "environment": [
+      "client"
+    ],
+    "interface": {
+      "schemaVersion": 1,
+      "summary": "Collaborative cursor overlays for CoCreate Text and Editor surfaces.",
+      "source": "src/index.js",
+      "declarative": {
+        "attributes": [
+          {
+            "name": "aria-hidden"
+          },
+          {
+            "name": "class"
+          },
+          {
+            "name": "crdt"
+          },
+          {
+            "name": "cursors"
+          },
+          {
+            "name": "data-editor-cursors"
+          },
+          {
+            "name": "style"
+          }
+        ]
+      },
+      "api": {
+        "exports": [
+          "attachEditorCursors"
+        ]
+      }
+    }
+  },
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "build": "webpack --mode=production --config webpack.config.js",
