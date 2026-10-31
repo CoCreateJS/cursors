@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2023 CoCreate and Contributors.
  * SPDX-License-Identifier: AGPL-3.0-or-later
- * Commercial licensing information: https://cocreate.app/licenses/
+ * Commercial licensing information: https://CoCreateJS.com/licenses/
  */
 import { getSelectionRects } from "@cocreate/utils/selection";
 
