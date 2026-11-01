@@ -86,7 +86,9 @@ function draw(record) {
     }
 }
 
-/** Attach the lightweight remote cursor overlay to a live CRDT editor. */
+/** Attach the lightweight remote cursor overlay to a live CRDT editor.  * @public
+ * @environment client
+ */
 export function attachEditorCursors(element, data, getRange, resolve = value => value, getSelections) {
     const doc = element.ownerDocument, view = doc.defaultView;
     const overlay = doc.createElement("div");
@@ -174,3 +176,58 @@ window.addEventListener("cocreate-crdt-selection", ({ detail }) => {
 window.dispatchEvent(new Event("cocreate-editor-cursor-request"));
 
 export default { attachEditorCursors };
+
+/**
+ *
+ * @name aria-hidden
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name class
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name crdt
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name cursors
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name data-editor-cursors
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name style
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ * Collaborative cursor overlays for CoCreate Text and Editor surfaces.
+ *
+ * @module cursors
+ * @environment client
+ */
