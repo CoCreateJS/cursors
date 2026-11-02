@@ -1,19 +1,19 @@
 # Contributing to CoCreate-cursors
 
-This project is work of [many contributors](https://github.com/CoCreateJS/CoCreate-cursors/graphs/contributors).
-You're encouraged to submit [pull requests](https://github.com/CoCreateJS/CoCreate-cursors/pulls),
-[propose features and discuss issues](https://github.com/CoCreateJS/CoCreate-cursors/issues).
+This project is work of [many contributors](https://github.com/CoCreateJS/cursors/graphs/contributors).
+You're encouraged to submit [pull requests](https://github.com/CoCreateJS/cursors/pulls),
+[propose features and discuss issues](https://github.com/CoCreateJS/cursors/issues).
 
 In the examples below, substitute your Github username for `contributor` in URLs.
 
 ## Fork the Project
 
-Fork the [project on Github](https://github.com/CoCreateJS/CoCreate-cursors) and check out your copy.
+Fork the [project on Github](https://github.com/CoCreateJS/cursors) and check out your copy.
 
 ```
 git cursors https://github.com/contributor/CoCreate-cursors.git
 cd CoCreate-cursors
-git remote add upstream https://github.com/cocreatejs/CoCreate-cursors.git
+git remote add upstream https://github.com/CoCreateJS/cursors.git
 ```
 
 ## Create a Topic Branch
@@ -75,7 +75,7 @@ git push origin my-feature-branch
 
 ## Make a Pull Request
 
-Go to [https://github.com/CoCreateJS/CoCreate-cursors](https://github.com/CoCreateJS/CoCreate-cursors) and select your feature branch.
+Go to [https://github.com/CoCreateJS/cursors](https://github.com/CoCreateJS/cursors) and select your feature branch.
 Click the 'Pull Request' button and fill out the form. Pull requests are usually reviewed within a few days.
 
 ## Rebase
