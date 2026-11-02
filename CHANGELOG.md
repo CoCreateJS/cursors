@@ -1,3 +1,29 @@
+# [2.0.0](https://github.com/CoCreateJS/cursors/compare/v1.25.2...v2.0.0) (2026-11-02)
+
+
+### Bug Fixes
+
+* add Deno specific entries to .gitignore ([1f501ae](https://github.com/CoCreateJS/cursors/commit/1f501aeecde5c829f43571963f91673c7abc30cd))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([8c41771](https://github.com/CoCreateJS/cursors/commit/8c41771a982e6ff795d750fcf3279a27984f09e2))
+* bump [@cocreate](https://github.com/cocreate) package versions ([57e4bd4](https://github.com/CoCreateJS/cursors/commit/57e4bd4d74f8a3eee783e5e5aec54aa434070e61))
+* bump versions ([8ce575a](https://github.com/CoCreateJS/cursors/commit/8ce575a33cb90953f3fceca8b838a29c5a81613f))
+* bump versions ([3d4e01a](https://github.com/CoCreateJS/cursors/commit/3d4e01af5dc3328294a00098201038f23f61f91e))
+* remove trailing slash from node_modules entry in .gitignore ([93e3d2b](https://github.com/CoCreateJS/cursors/commit/93e3d2b6180229cb2ed226161df89490b55904a8))
+* scope cursors to CRDT elements ([51ce878](https://github.com/CoCreateJS/cursors/commit/51ce878c4377400709ed47a230d02515f04b55e1))
+* update git url ([dcaafa8](https://github.com/CoCreateJS/cursors/commit/dcaafa834dbf1c04bc58cda5cf3f961e3c9e7cfc))
+* update GitHub Actions to use latest versions and sync package.json description ([3bf6bc3](https://github.com/CoCreateJS/cursors/commit/3bf6bc31241327c72ef71082372612190195be93))
+
+
+### Features
+
+* align CoCreate repository and package naming ([bf4d9e0](https://github.com/CoCreateJS/cursors/commit/bf4d9e011f9c21279aab57546dc5c5864f92808a))
+* replace uuid import and usage with utils ([c4d91b7](https://github.com/CoCreateJS/cursors/commit/c4d91b724e6a305bbf431afea9abb93c11047d70))
+
+
+### BREAKING CHANGES
+
+* consumers must use the renamed CoCreate package and repository identities; the previous prefixed names are no longer supported.
+
 ## [1.25.2](https://github.com/CoCreateJS/CoCreate-cursors/compare/v1.25.1...v1.25.2) (2026-07-19)
 
 
