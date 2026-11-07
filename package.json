@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/cursors",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Collaborative cursor overlays for CoCreate Text and Editor surfaces.",
   "keywords": [
     "cursors",
